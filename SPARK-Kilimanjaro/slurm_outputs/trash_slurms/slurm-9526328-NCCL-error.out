@@ -1,0 +1,173 @@
+r0 master: gra1187
+r0 Launching python script
+Found total gpus 4
+Found total gpus 4
+2023-07-18 14:20:49,451 - Added key: store_based_barrier_key:1 to store for rank: 2
+2023-07-18 14:20:49,459 - Added key: store_based_barrier_key:1 to store for rank: 3
+2023-07-18 14:20:49,965 - Added key: store_based_barrier_key:1 to store for rank: 1
+2023-07-18 14:20:49,987 - Added key: store_based_barrier_key:1 to store for rank: 0
+2023-07-18 14:20:49,991 - Added key: store_based_barrier_key:1 to store for rank: 3
+2023-07-18 14:20:50,040 - Added key: store_based_barrier_key:1 to store for rank: 2
+2023-07-18 14:20:50,067 - Added key: store_based_barrier_key:1 to store for rank: 1
+2023-07-18 14:20:50,072 - Added key: store_based_barrier_key:1 to store for rank: 0
+2023-07-18 14:20:50,072 - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,072 - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,076 - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,077 - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,078 - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,079 - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,079 - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-07-18 14:20:50,080 - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+gra1187:34993:34993 [0] NCCL INFO Bootstrap : Using ib0:10.29.84.212<0>
+gra1187:34993:34993 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1188:108962:108962 [0] NCCL INFO Bootstrap : Using ib0:10.29.84.213<0>
+gra1188:108962:108962 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1187:34993:34993 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.212<0>
+gra1187:34993:34993 [0] NCCL INFO Using network IB
+NCCL version 2.11.4+cuda11.4
+gra1188:108962:108962 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.213<0>
+gra1188:108962:108962 [0] NCCL INFO Using network IB
+NCCL version 2.11.4+cuda11.4
+gra1187:34996:34996 [3] NCCL INFO Bootstrap : Using ib0:10.29.84.212<0>
+gra1187:34996:34996 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1187:34996:34996 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.212<0>
+gra1187:34996:34996 [3] NCCL INFO Using network IB
+gra1188:108965:108965 [3] NCCL INFO Bootstrap : Using ib0:10.29.84.213<0>
+gra1187:34995:34995 [2] NCCL INFO Bootstrap : Using ib0:10.29.84.212<0>
+gra1188:108965:108965 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1187:34995:34995 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1187:34995:34995 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.212<0>
+gra1187:34995:34995 [2] NCCL INFO Using network IB
+gra1188:108965:108965 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.213<0>
+gra1188:108965:108965 [3] NCCL INFO Using network IB
+
+gra1187:34993:35063 [0] bootstrap.cc:131 NCCL WARN Bootstrap Root : rank 3 of 8 ranks has already checked in
+gra1187:34994:34994 [1] NCCL INFO Bootstrap : Using ib0:10.29.84.212<0>
+gra1188:108964:108964 [2] NCCL INFO Bootstrap : Using ib0:10.29.84.213<0>
+gra1188:108964:108964 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1187:34994:34994 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1188:108963:108963 [1] NCCL INFO Bootstrap : Using ib0:10.29.84.213<0>
+gra1188:108963:108963 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gra1188:108964:108964 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.213<0>
+gra1188:108964:108964 [2] NCCL INFO Using network IB
+gra1187:34994:34994 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.212<0>
+gra1187:34994:34994 [1] NCCL INFO Using network IB
+gra1188:108963:108963 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB ; OOB ib0:10.29.84.213<0>
+gra1188:108963:108963 [1] NCCL INFO Using network IB
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1187:34994:35070 [1] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+
+gra1187:34994:35070 [1] include/socket.h:409 NCCL WARN Net : Connect to 10.29.84.212<45589> failed : Connection refused
+gra1187:34994:35070 [1] NCCL INFO bootstrap.cc:360 -> 2
+gra1187:34994:35070 [1] NCCL INFO init.cc:525 -> 2
+gra1187:34994:35070 [1] NCCL INFO init.cc:941 -> 2
+gra1187:34994:35070 [1] NCCL INFO group.cc:72 -> 2 [Async thread]
+1  gpu 1
+image size is:
+96 96 96
+Total parameters count 62191941
+gra1188:108964:109036 [2] NCCL INFO Call to connect returned Connection refused, retrying
+gra1188:108963:109038 [1] NCCL INFO Call to connect returned Connection refused, retrying
+Traceback (most recent call last):
+  File "/home/guest183/research-contributions/SwinUNETR/BRATS21/main.py", line 237, in <module>
+    main()
+  File "/home/guest183/research-contributions/SwinUNETR/BRATS21/main.py", line 105, in main
+    mp.spawn(main_worker, nprocs=args.ngpus_per_node, args=(args,))
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 240, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method='spawn')
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 198, in start_processes
+    while not context.join():
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 160, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 1 terminated with the following error:
+Traceback (most recent call last):
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/multiprocessing/spawn.py", line 69, in _wrap
+    fn(i, *args)
+  File "/home/guest183/research-contributions/SwinUNETR/BRATS21/main.py", line 193, in main_worker
+    model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu], output_device=args.gpu)
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 655, in __init__
+    _verify_param_shape_across_processes(self.process_group, parameters)
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/distributed/utils.py", line 112, in _verify_param_shape_across_processes
+    return dist._verify_params_across_processes(process_group, tensors, logger)
+RuntimeError: NCCL error in: /home/coulombc/wheels_builder/tmp.17383/python-3.9/torch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1269, unhandled system error, NCCL version 2.11.4
+ncclSystemError: System call (e.g. socket, malloc) or external library call failed or device error. It can be also caused by unexpected exit of a remote peer.
+
+
+gra1188:108964:109036 [2] include/socket.h:409 NCCL WARN Net : Connect to 10.29.84.212<45589> failed : Connection refused
+gra1188:108964:109036 [2] NCCL INFO bootstrap.cc:360 -> 2
+gra1188:108964:109036 [2] NCCL INFO init.cc:525 -> 2
+gra1188:108964:109036 [2] NCCL INFO init.cc:941 -> 2
+gra1188:108964:109036 [2] NCCL INFO group.cc:72 -> 2 [Async thread]
+
+gra1188:108963:109038 [1] include/socket.h:409 NCCL WARN Net : Connect to 10.29.84.212<45589> failed : Connection refused
+gra1188:108963:109038 [1] NCCL INFO bootstrap.cc:360 -> 2
+gra1188:108963:109038 [1] NCCL INFO init.cc:525 -> 2
+gra1188:108963:109038 [1] NCCL INFO init.cc:941 -> 2
+gra1188:108963:109038 [1] NCCL INFO group.cc:72 -> 2 [Async thread]
+1  gpu 1
+image size is:
+96 96 96
+Total parameters count 62191941
+2  gpu 2
+image size is:
+96 96 96
+Total parameters count 62191941
+srun: error: gra1187: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=9526328.0
+srun: error: gra1188: task 1: Terminated
+srun: Force Terminated StepId=9526328.0

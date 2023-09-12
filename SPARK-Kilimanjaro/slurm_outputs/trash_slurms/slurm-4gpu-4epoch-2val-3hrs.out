@@ -1,0 +1,670 @@
+Found total gpus 4
+2023-07-04 19:13:36,427 - Added key: store_based_barrier_key:1 to store for rank: 3
+2023-07-04 19:13:36,455 - Added key: store_based_barrier_key:1 to store for rank: 1
+2023-07-04 19:13:36,477 - Added key: store_based_barrier_key:1 to store for rank: 0
+2023-07-04 19:13:36,483 - Added key: store_based_barrier_key:1 to store for rank: 2
+2023-07-04 19:13:36,484 - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+2023-07-04 19:13:36,487 - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+2023-07-04 19:13:36,488 - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+2023-07-04 19:13:36,490 - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+0  gpu 0
+Batch size is: 2 epochs 4
+image size is:
+96 96 96
+Total parameters count 62191941
+Writing Tensorboard logs to  ./runs/4_gpu_4_epochs
+0 Tue Jul  4 19:13:42 2023 Epoch: 0
+3  gpu 3
+image size is:
+96 96 96
+Total parameters count 62191941
+3 Tue Jul  4 19:13:42 2023 Epoch: 0
+2  gpu 2
+image size is:
+96 96 96
+Total parameters count 62191941
+2 Tue Jul  4 19:13:42 2023 Epoch: 0
+1  gpu 1
+image size is:
+96 96 96
+Total parameters count 62191941
+1 Tue Jul  4 19:13:42 2023 Epoch: 0
+2023-07-04 19:14:31,676 - Reducer buckets have been rebuilt in this iteration.
+Epoch 0/4 0/125 loss: 0.9745 time 49.48s
+2023-07-04 19:14:31,676 - Reducer buckets have been rebuilt in this iteration.
+2023-07-04 19:14:31,676 - Reducer buckets have been rebuilt in this iteration.
+2023-07-04 19:14:31,676 - Reducer buckets have been rebuilt in this iteration.
+1 Tue Jul  4 19:22:12 2023 Epoch: 1
+3 Tue Jul  4 19:22:12 2023 Epoch: 1
+Epoch 0/4 1/125 loss: 0.9698 time 2.55s
+Epoch 0/4 2/125 loss: 0.9764 time 2.56s
+Epoch 0/4 3/125 loss: 0.9738 time 2.54s
+Epoch 0/4 4/125 loss: 0.9708 time 2.57s
+Epoch 0/4 5/125 loss: 0.9669 time 2.58s
+Epoch 0/4 6/125 loss: 0.9658 time 2.58s
+Epoch 0/4 7/125 loss: 0.9617 time 2.61s
+Epoch 0/4 8/125 loss: 0.9611 time 3.95s
+Epoch 0/4 9/125 loss: 0.9608 time 4.10s
+Epoch 0/4 10/125 loss: 0.9602 time 2.62s
+Epoch 0/4 11/125 loss: 0.9601 time 2.65s
+Epoch 0/4 12/125 loss: 0.9585 time 2.64s
+Epoch 0/4 13/125 loss: 0.9587 time 2.64s
+Epoch 0/4 14/125 loss: 0.9589 time 2.64s
+Epoch 0/4 15/125 loss: 0.9570 time 2.63s
+Epoch 0/4 16/125 loss: 0.9553 time 15.13s
+Epoch 0/4 17/125 loss: 0.9539 time 2.62s
+Epoch 0/4 18/125 loss: 0.9540 time 2.64s
+Epoch 0/4 19/125 loss: 0.9541 time 2.66s
+Epoch 0/4 20/125 loss: 0.9544 time 2.65s
+Epoch 0/4 21/125 loss: 0.9544 time 2.65s
+Epoch 0/4 22/125 loss: 0.9539 time 2.67s
+Epoch 0/4 23/125 loss: 0.9544 time 2.69s
+Epoch 0/4 24/125 loss: 0.9530 time 10.72s
+Epoch 0/4 25/125 loss: 0.9522 time 2.74s
+Epoch 0/4 26/125 loss: 0.9510 time 2.68s
+Epoch 0/4 27/125 loss: 0.9511 time 2.69s
+Epoch 0/4 28/125 loss: 0.9507 time 2.70s
+Epoch 0/4 29/125 loss: 0.9509 time 2.70s
+Epoch 0/4 30/125 loss: 0.9511 time 2.71s
+Epoch 0/4 31/125 loss: 0.9504 time 2.72s
+Epoch 0/4 32/125 loss: 0.9496 time 12.96s
+Epoch 0/4 33/125 loss: 0.9486 time 5.18s
+Epoch 0/4 34/125 loss: 0.9482 time 2.70s
+Epoch 0/4 35/125 loss: 0.9479 time 2.71s
+Epoch 0/4 36/125 loss: 0.9471 time 2.71s
+Epoch 0/4 37/125 loss: 0.9470 time 2.71s
+Epoch 0/4 38/125 loss: 0.9468 time 2.72s
+Epoch 0/4 39/125 loss: 0.9470 time 2.72s
+Epoch 0/4 40/125 loss: 0.9467 time 11.28s
+Epoch 0/4 41/125 loss: 0.9469 time 2.71s
+Epoch 0/4 42/125 loss: 0.9469 time 2.71s
+Epoch 0/4 43/125 loss: 0.9468 time 2.71s
+Epoch 0/4 44/125 loss: 0.9467 time 2.72s
+Epoch 0/4 45/125 loss: 0.9470 time 2.72s
+Epoch 0/4 46/125 loss: 0.9467 time 2.73s
+Epoch 0/4 47/125 loss: 0.9471 time 2.73s
+Epoch 0/4 48/125 loss: 0.9470 time 9.39s
+Epoch 0/4 49/125 loss: 0.9468 time 4.73s
+Epoch 0/4 50/125 loss: 0.9464 time 2.71s
+Epoch 0/4 51/125 loss: 0.9462 time 2.72s
+Epoch 0/4 52/125 loss: 0.9461 time 2.73s
+Epoch 0/4 53/125 loss: 0.9457 time 2.73s
+Epoch 0/4 54/125 loss: 0.9453 time 2.74s
+Epoch 0/4 55/125 loss: 0.9447 time 2.75s
+Epoch 0/4 56/125 loss: 0.9443 time 8.83s
+Epoch 0/4 57/125 loss: 0.9442 time 3.02s
+Epoch 0/4 58/125 loss: 0.9446 time 2.69s
+Epoch 0/4 59/125 loss: 0.9447 time 2.71s
+Epoch 0/4 60/125 loss: 0.9449 time 2.71s
+Epoch 0/4 61/125 loss: 0.9442 time 2.71s
+Epoch 0/4 62/125 loss: 0.9440 time 2.72s
+Epoch 0/4 63/125 loss: 0.9442 time 2.71s
+Epoch 0/4 64/125 loss: 0.9436 time 14.10s
+Epoch 0/4 65/125 loss: 0.9436 time 2.78s
+Epoch 0/4 66/125 loss: 0.9428 time 2.68s
+Epoch 0/4 67/125 loss: 0.9429 time 2.69s
+Epoch 0/4 68/125 loss: 0.9427 time 2.70s
+Epoch 0/4 69/125 loss: 0.9420 time 2.73s
+Epoch 0/4 70/125 loss: 0.9419 time 2.71s
+Epoch 0/4 71/125 loss: 0.9413 time 2.69s
+Epoch 0/4 72/125 loss: 0.9415 time 10.94s
+Epoch 0/4 73/125 loss: 0.9413 time 3.36s
+Epoch 0/4 74/125 loss: 0.9412 time 2.67s
+Epoch 0/4 75/125 loss: 0.9415 time 2.66s
+Epoch 0/4 76/125 loss: 0.9418 time 2.67s
+Epoch 0/4 77/125 loss: 0.9418 time 2.68s
+Epoch 0/4 78/125 loss: 0.9419 time 2.68s
+Epoch 0/4 79/125 loss: 0.9417 time 2.67s
+Epoch 0/4 80/125 loss: 0.9417 time 11.37s
+Epoch 0/4 81/125 loss: 0.9417 time 2.65s
+Epoch 0/4 82/125 loss: 0.9414 time 2.66s
+Epoch 0/4 83/125 loss: 0.9413 time 2.67s
+Epoch 0/4 84/125 loss: 0.9407 time 2.67s
+Epoch 0/4 85/125 loss: 0.9406 time 2.66s
+Epoch 0/4 86/125 loss: 0.9408 time 2.67s
+Epoch 0/4 87/125 loss: 0.9404 time 2.66s
+Epoch 0/4 88/125 loss: 0.9407 time 14.74s
+Epoch 0/4 89/125 loss: 0.9396 time 2.65s
+Epoch 0/4 90/125 loss: 0.9393 time 2.65s
+Epoch 0/4 91/125 loss: 0.9385 time 2.66s
+Epoch 0/4 92/125 loss: 0.9386 time 2.65s
+Epoch 0/4 93/125 loss: 0.9384 time 2.66s
+Epoch 0/4 94/125 loss: 0.9382 time 2.67s
+Epoch 0/4 95/125 loss: 0.9375 time 2.67s
+Epoch 0/4 96/125 loss: 0.9372 time 12.89s
+Epoch 0/4 97/125 loss: 0.9371 time 3.43s
+Epoch 0/4 98/125 loss: 0.9371 time 2.65s
+Epoch 0/4 99/125 loss: 0.9369 time 2.66s
+Epoch 0/4 100/125 loss: 0.9365 time 2.65s
+Epoch 0/4 101/125 loss: 0.9369 time 2.65s
+Epoch 0/4 102/125 loss: 0.9367 time 2.65s
+Epoch 0/4 103/125 loss: 0.9367 time 2.69s
+Epoch 0/4 104/125 loss: 0.9361 time 6.66s
+Epoch 0/4 105/125 loss: 0.9363 time 8.19s
+Epoch 0/4 106/125 loss: 0.9364 time 2.78s
+Epoch 0/4 107/125 loss: 0.9360 time 2.65s
+Epoch 0/4 108/125 loss: 0.9355 time 2.65s
+Epoch 0/4 109/125 loss: 0.9354 time 2.65s
+Epoch 0/4 110/125 loss: 0.9355 time 2.73s
+Epoch 0/4 111/125 loss: 0.9354 time 2.66s
+Epoch 0/4 112/125 loss: 0.9355 time 4.51s
+Epoch 0/4 113/125 loss: 0.9353 time 2.64s
+Epoch 0/4 114/125 loss: 0.9349 time 8.62s
+Epoch 0/4 115/125 loss: 0.9350 time 2.65s
+Epoch 0/4 116/125 loss: 0.9349 time 2.70s
+Epoch 0/4 117/125 loss: 0.9348 time 2.66s
+Epoch 0/4 118/125 loss: 0.9346 time 2.66s
+Epoch 0/4 119/125 loss: 0.9348 time 2.65s
+Epoch 0/4 120/125 loss: 0.9346 time 2.66s
+Epoch 0/4 121/125 loss: 0.9343 time 2.65s
+Epoch 0/4 122/125 loss: 0.9340 time 2.65s
+Epoch 0/4 123/125 loss: 0.9335 time 2.65s
+Epoch 0/4 124/125 loss: 0.9334 time 2.65s
+Final training  0/3 loss: 0.9334 time 510.62s
+0 Tue Jul  4 19:22:12 2023 Epoch: 1
+2 Tue Jul  4 19:22:12 2023 Epoch: 1
+2 Tue Jul  4 19:30:28 2023 Epoch: 2
+3 Tue Jul  4 19:30:28 2023 Epoch: 2
+Epoch 1/4 0/125 loss: 0.8847 time 34.24s
+Epoch 1/4 1/125 loss: 0.8942 time 2.60s
+Epoch 1/4 2/125 loss: 0.8984 time 2.61s
+Epoch 1/4 3/125 loss: 0.8955 time 2.61s
+Epoch 1/4 4/125 loss: 0.8996 time 2.62s
+Epoch 1/4 5/125 loss: 0.9004 time 2.62s
+Epoch 1/4 6/125 loss: 0.8979 time 2.62s
+Epoch 1/4 7/125 loss: 0.8987 time 2.63s
+Epoch 1/4 8/125 loss: 0.9030 time 16.18s
+Epoch 1/4 9/125 loss: 0.9029 time 2.61s
+Epoch 1/4 10/125 loss: 0.9041 time 2.61s
+Epoch 1/4 11/125 loss: 0.9043 time 2.63s
+Epoch 1/4 12/125 loss: 0.9072 time 2.62s
+Epoch 1/4 13/125 loss: 0.9070 time 2.62s
+Epoch 1/4 14/125 loss: 0.9083 time 2.63s
+Epoch 1/4 15/125 loss: 0.9112 time 2.63s
+Epoch 1/4 16/125 loss: 0.9115 time 14.90s
+Epoch 1/4 17/125 loss: 0.9134 time 2.61s
+Epoch 1/4 18/125 loss: 0.9150 time 2.62s
+Epoch 1/4 19/125 loss: 0.9150 time 2.63s
+Epoch 1/4 20/125 loss: 0.9132 time 2.62s
+Epoch 1/4 21/125 loss: 0.9126 time 2.63s
+Epoch 1/4 22/125 loss: 0.9134 time 2.64s
+Epoch 1/4 23/125 loss: 0.9138 time 2.63s
+Epoch 1/4 24/125 loss: 0.9149 time 13.66s
+Epoch 1/4 25/125 loss: 0.9144 time 2.65s
+Epoch 1/4 26/125 loss: 0.9150 time 2.63s
+Epoch 1/4 27/125 loss: 0.9144 time 2.63s
+Epoch 1/4 28/125 loss: 0.9150 time 2.63s
+Epoch 1/4 29/125 loss: 0.9164 time 2.63s
+Epoch 1/4 30/125 loss: 0.9167 time 2.65s
+Epoch 1/4 31/125 loss: 0.9172 time 2.65s
+Epoch 1/4 32/125 loss: 0.9178 time 8.41s
+Epoch 1/4 33/125 loss: 0.9170 time 2.63s
+Epoch 1/4 34/125 loss: 0.9168 time 2.64s
+Epoch 1/4 35/125 loss: 0.9171 time 2.64s
+Epoch 1/4 36/125 loss: 0.9175 time 2.64s
+Epoch 1/4 37/125 loss: 0.9178 time 2.64s
+Epoch 1/4 38/125 loss: 0.9183 time 2.64s
+Epoch 1/4 39/125 loss: 0.9188 time 2.64s
+Epoch 1/4 40/125 loss: 0.9181 time 15.56s
+Epoch 1/4 41/125 loss: 0.9177 time 3.78s
+Epoch 1/4 42/125 loss: 0.9173 time 2.61s
+Epoch 1/4 43/125 loss: 0.9163 time 2.65s
+Epoch 1/4 44/125 loss: 0.9161 time 2.62s
+Epoch 1/4 45/125 loss: 0.9166 time 2.63s
+Epoch 1/4 46/125 loss: 0.9166 time 2.64s
+Epoch 1/4 47/125 loss: 0.9161 time 2.63s
+Epoch 1/4 48/125 loss: 0.9162 time 8.29s
+Epoch 1/4 49/125 loss: 0.9156 time 3.22s
+Epoch 1/4 50/125 loss: 0.9157 time 2.62s
+Epoch 1/4 51/125 loss: 0.9161 time 2.64s
+Epoch 1/4 52/125 loss: 0.9159 time 2.64s
+Epoch 1/4 53/125 loss: 0.9151 time 2.63s
+Epoch 1/4 54/125 loss: 0.9153 time 2.64s
+Epoch 1/4 55/125 loss: 0.9146 time 2.64s
+Epoch 1/4 56/125 loss: 0.9149 time 12.55s
+Epoch 1/4 57/125 loss: 0.9147 time 2.61s
+Epoch 1/4 58/125 loss: 0.9148 time 2.62s
+Epoch 1/4 59/125 loss: 0.9143 time 2.62s
+Epoch 1/4 60/125 loss: 0.9146 time 2.63s
+Epoch 1/4 61/125 loss: 0.9139 time 2.64s
+Epoch 1/4 62/125 loss: 0.9132 time 2.65s
+Epoch 1/4 63/125 loss: 0.9128 time 2.63s
+Epoch 1/4 64/125 loss: 0.9126 time 15.95s
+Epoch 1/4 65/125 loss: 0.9113 time 2.61s
+Epoch 1/4 66/125 loss: 0.9117 time 2.61s
+Epoch 1/4 67/125 loss: 0.9117 time 2.62s
+Epoch 1/4 68/125 loss: 0.9120 time 2.63s
+Epoch 1/4 69/125 loss: 0.9116 time 2.62s
+Epoch 1/4 70/125 loss: 0.9113 time 2.65s
+Epoch 1/4 71/125 loss: 0.9108 time 2.64s
+Epoch 1/4 72/125 loss: 0.9112 time 10.36s
+Epoch 1/4 73/125 loss: 0.9114 time 2.61s
+Epoch 1/4 74/125 loss: 0.9116 time 2.63s
+Epoch 1/4 75/125 loss: 0.9117 time 2.64s
+Epoch 1/4 76/125 loss: 0.9114 time 2.63s
+Epoch 1/4 77/125 loss: 0.9110 time 2.63s
+Epoch 1/4 78/125 loss: 0.9114 time 2.63s
+Epoch 1/4 79/125 loss: 0.9114 time 2.63s
+Epoch 1/4 80/125 loss: 0.9112 time 10.97s
+Epoch 1/4 81/125 loss: 0.9117 time 2.62s
+Epoch 1/4 82/125 loss: 0.9117 time 2.63s
+Epoch 1/4 83/125 loss: 0.9119 time 2.67s
+Epoch 1/4 84/125 loss: 0.9117 time 2.62s
+Epoch 1/4 85/125 loss: 0.9119 time 2.66s
+Epoch 1/4 86/125 loss: 0.9118 time 2.64s
+Epoch 1/4 87/125 loss: 0.9123 time 2.67s
+Epoch 1/4 88/125 loss: 0.9124 time 12.65s
+Epoch 1/4 89/125 loss: 0.9120 time 2.62s
+Epoch 1/4 90/125 loss: 0.9118 time 2.63s
+Epoch 1/4 91/125 loss: 0.9119 time 2.64s
+Epoch 1/4 92/125 loss: 0.9117 time 2.64s
+Epoch 1/4 93/125 loss: 0.9119 time 2.64s
+Epoch 1/4 94/125 loss: 0.9119 time 2.63s
+Epoch 1/4 95/125 loss: 0.9120 time 2.64s
+Epoch 1/4 96/125 loss: 0.9121 time 13.97s
+Epoch 1/4 97/125 loss: 0.9120 time 2.62s
+Epoch 1/4 98/125 loss: 0.9119 time 2.63s
+Epoch 1/4 99/125 loss: 0.9116 time 2.64s
+Epoch 1/4 100/125 loss: 0.9115 time 2.73s
+Epoch 1/4 101/125 loss: 0.9117 time 2.67s
+Epoch 1/4 102/125 loss: 0.9117 time 2.64s
+Epoch 1/4 103/125 loss: 0.9111 time 2.64s
+Epoch 1/4 104/125 loss: 0.9110 time 12.82s
+Epoch 1/4 105/125 loss: 0.9105 time 2.62s
+Epoch 1/4 106/125 loss: 0.9104 time 2.63s
+Epoch 1/4 107/125 loss: 0.9104 time 2.67s
+Epoch 1/4 108/125 loss: 0.9103 time 2.63s
+Epoch 1/4 109/125 loss: 0.9104 time 2.65s
+Epoch 1/4 110/125 loss: 0.9104 time 2.64s
+Epoch 1/4 111/125 loss: 0.9106 time 2.65s
+Epoch 1/4 112/125 loss: 0.9103 time 3.32s
+Epoch 1/4 113/125 loss: 0.9105 time 2.64s
+Epoch 1/4 114/125 loss: 0.9105 time 2.63s
+Epoch 1/4 115/125 loss: 0.9106 time 2.65s
+Epoch 1/4 116/125 loss: 0.9106 time 2.65s
+Epoch 1/4 117/125 loss: 0.9107 time 2.65s
+Epoch 1/4 118/125 loss: 0.9105 time 2.65s
+Epoch 1/4 119/125 loss: 0.9103 time 2.65s
+Epoch 1/4 120/125 loss: 0.9103 time 2.65s
+Epoch 1/4 121/125 loss: 0.9104 time 2.70s
+Epoch 1/4 122/125 loss: 0.9108 time 2.65s
+Epoch 1/4 123/125 loss: 0.9107 time 2.65s
+Epoch 1/4 124/125 loss: 0.9108 time 2.65s
+Final training  1/3 loss: 0.9108 time 495.59s
+0 Tue Jul  4 19:30:28 2023 Epoch: 2
+1 Tue Jul  4 19:30:28 2023 Epoch: 2
+1 Tue Jul  4 19:38:34 2023 Epoch: 3
+2 Tue Jul  4 19:38:34 2023 Epoch: 3
+Epoch 2/4 0/125 loss: 0.9581 time 35.16s
+Epoch 2/4 1/125 loss: 0.9640 time 2.60s
+Epoch 2/4 2/125 loss: 0.9263 time 2.60s
+Epoch 2/4 3/125 loss: 0.9153 time 2.61s
+Epoch 2/4 4/125 loss: 0.9045 time 2.62s
+Epoch 2/4 5/125 loss: 0.9017 time 2.62s
+Epoch 2/4 6/125 loss: 0.8975 time 2.61s
+Epoch 2/4 7/125 loss: 0.8948 time 2.61s
+Epoch 2/4 8/125 loss: 0.8980 time 13.12s
+Epoch 2/4 9/125 loss: 0.8957 time 2.60s
+Epoch 2/4 10/125 loss: 0.8957 time 2.62s
+Epoch 2/4 11/125 loss: 0.8916 time 2.63s
+Epoch 2/4 12/125 loss: 0.8934 time 2.62s
+Epoch 2/4 13/125 loss: 0.8950 time 2.62s
+Epoch 2/4 14/125 loss: 0.8955 time 2.62s
+Epoch 2/4 15/125 loss: 0.8934 time 2.64s
+Epoch 2/4 16/125 loss: 0.8944 time 11.66s
+Epoch 2/4 17/125 loss: 0.8948 time 2.60s
+Epoch 2/4 18/125 loss: 0.8967 time 2.62s
+Epoch 2/4 19/125 loss: 0.8979 time 2.61s
+Epoch 2/4 20/125 loss: 0.8985 time 2.63s
+Epoch 2/4 21/125 loss: 0.8978 time 2.62s
+Epoch 2/4 22/125 loss: 0.8981 time 2.63s
+Epoch 2/4 23/125 loss: 0.8975 time 2.63s
+Epoch 2/4 24/125 loss: 0.8990 time 13.18s
+Epoch 2/4 25/125 loss: 0.8965 time 2.60s
+Epoch 2/4 26/125 loss: 0.8980 time 2.62s
+Epoch 2/4 27/125 loss: 0.8970 time 2.61s
+Epoch 2/4 28/125 loss: 0.8975 time 2.62s
+Epoch 2/4 29/125 loss: 0.8986 time 2.67s
+Epoch 2/4 30/125 loss: 0.8985 time 2.62s
+Epoch 2/4 31/125 loss: 0.8988 time 2.63s
+Epoch 2/4 32/125 loss: 0.8978 time 15.44s
+Epoch 2/4 33/125 loss: 0.8961 time 2.60s
+Epoch 2/4 34/125 loss: 0.8959 time 2.61s
+Epoch 2/4 35/125 loss: 0.8957 time 2.62s
+Epoch 2/4 36/125 loss: 0.8970 time 2.62s
+Epoch 2/4 37/125 loss: 0.8967 time 2.63s
+Epoch 2/4 38/125 loss: 0.8961 time 2.63s
+Epoch 2/4 39/125 loss: 0.8970 time 2.63s
+Epoch 2/4 40/125 loss: 0.8977 time 13.35s
+Epoch 2/4 41/125 loss: 0.8982 time 2.61s
+Epoch 2/4 42/125 loss: 0.8976 time 2.62s
+Epoch 2/4 43/125 loss: 0.8988 time 2.62s
+Epoch 2/4 44/125 loss: 0.8991 time 2.62s
+Epoch 2/4 45/125 loss: 0.8983 time 2.63s
+Epoch 2/4 46/125 loss: 0.8993 time 2.71s
+Epoch 2/4 47/125 loss: 0.8983 time 2.63s
+Epoch 2/4 48/125 loss: 0.8981 time 9.38s
+Epoch 2/4 49/125 loss: 0.8988 time 4.00s
+Epoch 2/4 50/125 loss: 0.8996 time 2.61s
+Epoch 2/4 51/125 loss: 0.8993 time 2.63s
+Epoch 2/4 52/125 loss: 0.8990 time 2.63s
+Epoch 2/4 53/125 loss: 0.8990 time 2.64s
+Epoch 2/4 54/125 loss: 0.8995 time 2.66s
+Epoch 2/4 55/125 loss: 0.8996 time 2.61s
+Epoch 2/4 56/125 loss: 0.8991 time 9.58s
+Epoch 2/4 57/125 loss: 0.8982 time 4.18s
+Epoch 2/4 58/125 loss: 0.8982 time 2.61s
+Epoch 2/4 59/125 loss: 0.8984 time 2.63s
+Epoch 2/4 60/125 loss: 0.8981 time 2.63s
+Epoch 2/4 61/125 loss: 0.8972 time 2.63s
+Epoch 2/4 62/125 loss: 0.8971 time 2.64s
+Epoch 2/4 63/125 loss: 0.8974 time 2.65s
+Epoch 2/4 64/125 loss: 0.8971 time 12.69s
+Epoch 2/4 65/125 loss: 0.8970 time 2.62s
+Epoch 2/4 66/125 loss: 0.8981 time 2.64s
+Epoch 2/4 67/125 loss: 0.8976 time 2.63s
+Epoch 2/4 68/125 loss: 0.8976 time 2.65s
+Epoch 2/4 69/125 loss: 0.8976 time 2.63s
+Epoch 2/4 70/125 loss: 0.8976 time 2.64s
+Epoch 2/4 71/125 loss: 0.8969 time 2.67s
+Epoch 2/4 72/125 loss: 0.8963 time 7.02s
+Epoch 2/4 73/125 loss: 0.8969 time 2.63s
+Epoch 2/4 74/125 loss: 0.8964 time 2.64s
+Epoch 2/4 75/125 loss: 0.8970 time 2.65s
+Epoch 2/4 76/125 loss: 0.8968 time 2.64s
+Epoch 2/4 77/125 loss: 0.8965 time 2.65s
+Epoch 2/4 78/125 loss: 0.8964 time 2.62s
+Epoch 2/4 79/125 loss: 0.8957 time 2.63s
+Epoch 2/4 80/125 loss: 0.8956 time 13.48s
+Epoch 2/4 81/125 loss: 0.8954 time 2.61s
+Epoch 2/4 82/125 loss: 0.8950 time 2.61s
+Epoch 2/4 83/125 loss: 0.8945 time 2.63s
+Epoch 2/4 84/125 loss: 0.8945 time 2.70s
+Epoch 2/4 85/125 loss: 0.8946 time 2.62s
+Epoch 2/4 86/125 loss: 0.8953 time 2.62s
+Epoch 2/4 87/125 loss: 0.8953 time 2.63s
+Epoch 2/4 88/125 loss: 0.8946 time 11.29s
+Epoch 2/4 89/125 loss: 0.8952 time 5.39s
+Epoch 2/4 90/125 loss: 0.8949 time 2.60s
+Epoch 2/4 91/125 loss: 0.8953 time 2.62s
+Epoch 2/4 92/125 loss: 0.8951 time 2.61s
+Epoch 2/4 93/125 loss: 0.8950 time 2.63s
+Epoch 2/4 94/125 loss: 0.8946 time 2.63s
+Epoch 2/4 95/125 loss: 0.8947 time 2.64s
+Epoch 2/4 96/125 loss: 0.8938 time 11.44s
+Epoch 2/4 97/125 loss: 0.8933 time 2.61s
+Epoch 2/4 98/125 loss: 0.8935 time 2.61s
+Epoch 2/4 99/125 loss: 0.8941 time 2.62s
+Epoch 2/4 100/125 loss: 0.8941 time 2.62s
+Epoch 2/4 101/125 loss: 0.8939 time 2.69s
+Epoch 2/4 102/125 loss: 0.8936 time 2.65s
+Epoch 2/4 103/125 loss: 0.8936 time 2.63s
+Epoch 2/4 104/125 loss: 0.8934 time 4.40s
+Epoch 2/4 105/125 loss: 0.8938 time 7.65s
+Epoch 2/4 106/125 loss: 0.8934 time 2.62s
+Epoch 2/4 107/125 loss: 0.8932 time 2.63s
+Epoch 2/4 108/125 loss: 0.8934 time 2.64s
+Epoch 2/4 109/125 loss: 0.8934 time 2.64s
+Epoch 2/4 110/125 loss: 0.8931 time 2.67s
+Epoch 2/4 111/125 loss: 0.8928 time 2.65s
+Epoch 2/4 112/125 loss: 0.8930 time 2.63s
+Epoch 2/4 113/125 loss: 0.8932 time 2.64s
+Epoch 2/4 114/125 loss: 0.8936 time 2.64s
+Epoch 2/4 115/125 loss: 0.8938 time 4.38s
+Epoch 2/4 116/125 loss: 0.8939 time 2.64s
+Epoch 2/4 117/125 loss: 0.8942 time 2.64s
+Epoch 2/4 118/125 loss: 0.8941 time 2.64s
+Epoch 2/4 119/125 loss: 0.8938 time 2.64s
+Epoch 2/4 120/125 loss: 0.8941 time 2.65s
+Epoch 2/4 121/125 loss: 0.8941 time 2.65s
+Epoch 2/4 122/125 loss: 0.8938 time 2.65s
+Epoch 2/4 123/125 loss: 0.8937 time 2.65s
+Epoch 2/4 124/125 loss: 0.8937 time 2.66s
+Final training  2/3 loss: 0.8937 time 485.76s
+0 Tue Jul  4 19:38:34 2023 Epoch: 3
+3 Tue Jul  4 19:38:34 2023 Epoch: 3
+Epoch 3/4 0/125 loss: 0.8548 time 33.15s
+Epoch 3/4 1/125 loss: 0.8866 time 2.58s
+Epoch 3/4 2/125 loss: 0.8812 time 2.59s
+Epoch 3/4 3/125 loss: 0.8662 time 2.60s
+Epoch 3/4 4/125 loss: 0.8813 time 2.60s
+Epoch 3/4 5/125 loss: 0.8781 time 2.66s
+Epoch 3/4 6/125 loss: 0.8741 time 2.61s
+Epoch 3/4 7/125 loss: 0.8807 time 2.61s
+Epoch 3/4 8/125 loss: 0.8844 time 13.06s
+Epoch 3/4 9/125 loss: 0.8865 time 2.60s
+Epoch 3/4 10/125 loss: 0.8847 time 2.61s
+Epoch 3/4 11/125 loss: 0.8863 time 2.61s
+Epoch 3/4 12/125 loss: 0.8883 time 2.62s
+Epoch 3/4 13/125 loss: 0.8885 time 2.62s
+Epoch 3/4 14/125 loss: 0.8871 time 2.62s
+Epoch 3/4 15/125 loss: 0.8853 time 2.63s
+Epoch 3/4 16/125 loss: 0.8867 time 13.47s
+Epoch 3/4 17/125 loss: 0.8879 time 2.60s
+Epoch 3/4 18/125 loss: 0.8890 time 2.61s
+Epoch 3/4 19/125 loss: 0.8884 time 2.61s
+Epoch 3/4 20/125 loss: 0.8891 time 2.61s
+Epoch 3/4 21/125 loss: 0.8882 time 2.62s
+Epoch 3/4 22/125 loss: 0.8893 time 2.62s
+Epoch 3/4 23/125 loss: 0.8891 time 2.62s
+Epoch 3/4 24/125 loss: 0.8906 time 10.63s
+Epoch 3/4 25/125 loss: 0.8911 time 2.61s
+Epoch 3/4 26/125 loss: 0.8901 time 2.61s
+Epoch 3/4 27/125 loss: 0.8883 time 2.61s
+Epoch 3/4 28/125 loss: 0.8896 time 2.62s
+Epoch 3/4 29/125 loss: 0.8893 time 2.62s
+Epoch 3/4 30/125 loss: 0.8897 time 2.62s
+Epoch 3/4 31/125 loss: 0.8886 time 2.63s
+Epoch 3/4 32/125 loss: 0.8893 time 8.78s
+Epoch 3/4 33/125 loss: 0.8894 time 2.62s
+Epoch 3/4 34/125 loss: 0.8885 time 2.61s
+Epoch 3/4 35/125 loss: 0.8879 time 2.62s
+Epoch 3/4 36/125 loss: 0.8864 time 2.62s
+Epoch 3/4 37/125 loss: 0.8844 time 2.63s
+Epoch 3/4 38/125 loss: 0.8852 time 2.63s
+Epoch 3/4 39/125 loss: 0.8856 time 2.63s
+Epoch 3/4 40/125 loss: 0.8870 time 10.09s
+Epoch 3/4 41/125 loss: 0.8870 time 2.61s
+Epoch 3/4 42/125 loss: 0.8865 time 2.62s
+Epoch 3/4 43/125 loss: 0.8861 time 5.13s
+Epoch 3/4 44/125 loss: 0.8868 time 2.62s
+Epoch 3/4 45/125 loss: 0.8868 time 2.63s
+Epoch 3/4 46/125 loss: 0.8874 time 2.63s
+Epoch 3/4 47/125 loss: 0.8874 time 2.63s
+Epoch 3/4 48/125 loss: 0.8873 time 10.66s
+Epoch 3/4 49/125 loss: 0.8868 time 2.62s
+Epoch 3/4 50/125 loss: 0.8869 time 3.16s
+Epoch 3/4 51/125 loss: 0.8865 time 3.51s
+Epoch 3/4 52/125 loss: 0.8862 time 2.63s
+Epoch 3/4 53/125 loss: 0.8862 time 2.63s
+Epoch 3/4 54/125 loss: 0.8864 time 2.63s
+Epoch 3/4 55/125 loss: 0.8869 time 2.64s
+Epoch 3/4 56/125 loss: 0.8851 time 7.59s
+Epoch 3/4 57/125 loss: 0.8851 time 2.62s
+Epoch 3/4 58/125 loss: 0.8857 time 3.94s
+Epoch 3/4 59/125 loss: 0.8871 time 3.57s
+Epoch 3/4 60/125 loss: 0.8868 time 2.63s
+Epoch 3/4 61/125 loss: 0.8869 time 2.63s
+Epoch 3/4 62/125 loss: 0.8870 time 2.63s
+Epoch 3/4 63/125 loss: 0.8858 time 2.63s
+Epoch 3/4 64/125 loss: 0.8855 time 4.88s
+Epoch 3/4 65/125 loss: 0.8855 time 2.64s
+Epoch 3/4 66/125 loss: 0.8861 time 7.37s
+Epoch 3/4 67/125 loss: 0.8865 time 2.62s
+Epoch 3/4 68/125 loss: 0.8864 time 2.63s
+Epoch 3/4 69/125 loss: 0.8872 time 2.63s
+Epoch 3/4 70/125 loss: 0.8874 time 2.63s
+Epoch 3/4 71/125 loss: 0.8875 time 2.63s
+Epoch 3/4 72/125 loss: 0.8869 time 5.58s
+Epoch 3/4 73/125 loss: 0.8871 time 2.63s
+Epoch 3/4 74/125 loss: 0.8878 time 6.73s
+Epoch 3/4 75/125 loss: 0.8879 time 2.87s
+Epoch 3/4 76/125 loss: 0.8884 time 3.41s
+Epoch 3/4 77/125 loss: 0.8879 time 2.62s
+Epoch 3/4 78/125 loss: 0.8882 time 2.65s
+Epoch 3/4 79/125 loss: 0.8884 time 2.64s
+Epoch 3/4 80/125 loss: 0.8884 time 6.01s
+Epoch 3/4 81/125 loss: 0.8877 time 2.63s
+Epoch 3/4 82/125 loss: 0.8878 time 4.08s
+Epoch 3/4 83/125 loss: 0.8880 time 2.64s
+Epoch 3/4 84/125 loss: 0.8885 time 3.57s
+Epoch 3/4 85/125 loss: 0.8887 time 2.62s
+Epoch 3/4 86/125 loss: 0.8884 time 2.65s
+Epoch 3/4 87/125 loss: 0.8877 time 2.65s
+Epoch 3/4 88/125 loss: 0.8873 time 7.30s
+Epoch 3/4 89/125 loss: 0.8871 time 2.63s
+Epoch 3/4 90/125 loss: 0.8872 time 2.63s
+Epoch 3/4 91/125 loss: 0.8874 time 3.90s
+Epoch 3/4 92/125 loss: 0.8874 time 4.80s
+Epoch 3/4 93/125 loss: 0.8877 time 2.63s
+Epoch 3/4 94/125 loss: 0.8873 time 2.64s
+Epoch 3/4 95/125 loss: 0.8874 time 2.65s
+Epoch 3/4 96/125 loss: 0.8863 time 8.83s
+Epoch 3/4 97/125 loss: 0.8864 time 2.62s
+Epoch 3/4 98/125 loss: 0.8860 time 2.62s
+Epoch 3/4 99/125 loss: 0.8861 time 2.67s
+Epoch 3/4 100/125 loss: 0.8859 time 3.29s
+Epoch 3/4 101/125 loss: 0.8857 time 2.78s
+Epoch 3/4 102/125 loss: 0.8859 time 3.08s
+Epoch 3/4 103/125 loss: 0.8862 time 2.77s
+Epoch 3/4 104/125 loss: 0.8860 time 2.75s
+Epoch 3/4 105/125 loss: 0.8854 time 2.71s
+Epoch 3/4 106/125 loss: 0.8855 time 2.76s
+Epoch 3/4 107/125 loss: 0.8853 time 2.70s
+Epoch 3/4 108/125 loss: 0.8857 time 2.73s
+Epoch 3/4 109/125 loss: 0.8853 time 2.66s
+Epoch 3/4 110/125 loss: 0.8849 time 2.65s
+Epoch 3/4 111/125 loss: 0.8851 time 2.65s
+Epoch 3/4 112/125 loss: 0.8848 time 2.65s
+Epoch 3/4 113/125 loss: 0.8850 time 2.65s
+Epoch 3/4 114/125 loss: 0.8852 time 2.65s
+Epoch 3/4 115/125 loss: 0.8850 time 2.66s
+Epoch 3/4 116/125 loss: 0.8846 time 2.65s
+Epoch 3/4 117/125 loss: 0.8846 time 2.66s
+Epoch 3/4 118/125 loss: 0.8848 time 2.66s
+Epoch 3/4 119/125 loss: 0.8846 time 2.68s
+Epoch 3/4 120/125 loss: 0.8850 time 2.65s
+Epoch 3/4 121/125 loss: 0.8848 time 2.67s
+Epoch 3/4 122/125 loss: 0.8846 time 2.68s
+Epoch 3/4 123/125 loss: 0.8842 time 2.67s
+Epoch 3/4 124/125 loss: 0.8842 time 2.66s
+Final training  3/3 loss: 0.8842 time 458.53s
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/monai/metrics/utils.py:219: UserWarning: y_pred should be a binarized tensor.
+  warnings.warn(f"{name} should be a binarized tensor.")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/monai/metrics/utils.py:219: UserWarning: y_pred should be a binarized tensor.
+  warnings.warn(f"{name} should be a binarized tensor.")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/monai/metrics/utils.py:219: UserWarning: y_pred should be a binarized tensor.
+  warnings.warn(f"{name} should be a binarized tensor.")
+/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/monai/metrics/utils.py:219: UserWarning: y_pred should be a binarized tensor.
+  warnings.warn(f"{name} should be a binarized tensor.")
+2023-07-04 19:47:39,298 - Added key: store_based_barrier_key:2 to store for rank: 0
+2023-07-04 19:47:39,308 - Added key: store_based_barrier_key:2 to store for rank: 1
+2023-07-04 19:47:39,318 - Rank 0: Completed store-based barrier for key:store_based_barrier_key:2 with 4 nodes.
+2023-07-04 19:47:39,318 - Added key: store_based_barrier_key:2 to store for rank: 2
+2023-07-04 19:47:39,318 - Added key: store_based_barrier_key:2 to store for rank: 3
+2023-07-04 19:47:39,319 - Rank 3: Completed store-based barrier for key:store_based_barrier_key:2 with 4 nodes.
+2023-07-04 19:47:39,319 - Rank 2: Completed store-based barrier for key:store_based_barrier_key:2 with 4 nodes.
+2023-07-04 19:47:39,319 - Rank 1: Completed store-based barrier for key:store_based_barrier_key:2 with 4 nodes.
+/home/guest183/research-contributions/SwinUNETR/BRATS21/utils/utils.py:39: RuntimeWarning: invalid value encountered in divide
+  self.avg = np.where(self.count > 0, self.sum / self.count, self.sum)
+/home/guest183/research-contributions/SwinUNETR/BRATS21/utils/utils.py:39: RuntimeWarning: invalid value encountered in divide
+  self.avg = np.where(self.count > 0, self.sum / self.count, self.sum)
+/home/guest183/research-contributions/SwinUNETR/BRATS21/utils/utils.py:39: RuntimeWarning: invalid value encountered in divide
+  self.avg = np.where(self.count > 0, self.sum / self.count, self.sum)
+/home/guest183/research-contributions/SwinUNETR/BRATS21/utils/utils.py:39: RuntimeWarning: invalid value encountered in divide
+  self.avg = np.where(self.count > 0, self.sum / self.count, self.sum)
+Training Finished !, Best Accuracy:  0.0
+Training Finished !, Best Accuracy:  0.0
+Training Finished !, Best Accuracy:  0.0
+Exception in thread Thread-1:
+Val 3/4 0/63 , Dice_TC: 0.009347657 , Dice_WT: 0.21753493 , Dice_ET: 0.0 , time 86.63s
+Val 3/4 1/63 , Dice_TC: 0.013012857 , Dice_WT: 0.18637176 , Dice_ET: 0.0 , time 68.47s
+Val 3/4 2/63 , Dice_TC: 0.013200314 , Dice_WT: 0.17216976 , Dice_ET: 0.0 , time 68.75s
+Val 3/4 3/63 , Dice_TC: 0.011318159 , Dice_WT: 0.15000486 , Dice_ET: 0.0 , time 68.83s
+Val 3/4 4/63 , Dice_TC: 0.010667122 , Dice_WT: 0.1512157 , Dice_ET: 0.0 , time 68.76s
+Val 3/4 5/63 , Dice_TC: 0.009971627 , Dice_WT: 0.14454365 , Dice_ET: 0.0 , time 68.78s
+Val 3/4 6/63 , Dice_TC: 0.009658896 , Dice_WT: 0.14291565 , Dice_ET: 0.0 , time 68.80s
+Val 3/4 7/63 , Dice_TC: 0.008745244 , Dice_WT: 0.13836247 , Dice_ET: 0.0 , time 68.77s
+Val 3/4 8/63 , Dice_TC: 0.01009037 , Dice_WT: 0.13971499 , Dice_ET: 0.0 , time 68.81s
+Val 3/4 9/63 , Dice_TC: 0.01113197 , Dice_WT: 0.140271 , Dice_ET: 0.0 , time 68.79s
+Val 3/4 10/63 , Dice_TC: 0.0106868185 , Dice_WT: 0.14250365 , Dice_ET: 0.0 , time 68.80s
+Val 3/4 11/63 , Dice_TC: 0.010714598 , Dice_WT: 0.14506952 , Dice_ET: 0.0 , time 68.86s
+Val 3/4 12/63 , Dice_TC: 0.011365425 , Dice_WT: 0.14828923 , Dice_ET: 0.0 , time 68.83s
+Val 3/4 13/63 , Dice_TC: 0.010763771 , Dice_WT: 0.14034101 , Dice_ET: 0.0 , time 68.81s
+Val 3/4 14/63 , Dice_TC: 0.01026732 , Dice_WT: 0.13964558 , Dice_ET: 0.0 , time 68.88s
+Val 3/4 15/63 , Dice_TC: 0.010267875 , Dice_WT: 0.14020765 , Dice_ET: 0.0 , time 68.87s
+Val 3/4 16/63 , Dice_TC: 0.01090103 , Dice_WT: 0.141601 , Dice_ET: 0.0 , time 68.91s
+Val 3/4 17/63 , Dice_TC: 0.011044003 , Dice_WT: 0.1408285 , Dice_ET: 0.0 , time 68.94s
+Val 3/4 18/63 , Dice_TC: 0.011010523 , Dice_WT: 0.14164779 , Dice_ET: 0.0 , time 68.86s
+Val 3/4 19/63 , Dice_TC: 0.010738749 , Dice_WT: 0.14184351 , Dice_ET: 0.0 , time 69.00s
+Val 3/4 20/63 , Dice_TC: 0.0108624725 , Dice_WT: 0.14108826 , Dice_ET: 0.0 , time 69.00s
+Val 3/4 21/63 , Dice_TC: 0.010926094 , Dice_WT: 0.14204623 , Dice_ET: 0.0 , time 68.98s
+Val 3/4 22/63 , Dice_TC: 0.011157977 , Dice_WT: 0.14209715 , Dice_ET: 0.0 , time 68.98s
+Val 3/4 23/63 , Dice_TC: 0.0108886715 , Dice_WT: 0.14394741 , Dice_ET: 0.0 , time 69.02s
+Val 3/4 24/63 , Dice_TC: 0.010727811 , Dice_WT: 0.14080735 , Dice_ET: 0.0 , time 68.99s
+Val 3/4 25/63 , Dice_TC: 0.010665731 , Dice_WT: 0.13898772 , Dice_ET: 0.0 , time 69.00s
+Val 3/4 26/63 , Dice_TC: 0.0107787745 , Dice_WT: 0.13991737 , Dice_ET: 0.0 , time 68.99s
+Val 3/4 27/63 , Dice_TC: 0.010493035 , Dice_WT: 0.14006267 , Dice_ET: 0.0 , time 68.96s
+Val 3/4 28/63 , Dice_TC: 0.010667917 , Dice_WT: 0.13933748 , Dice_ET: 0.0 , time 68.99s
+Val 3/4 29/63 , Dice_TC: 0.010560674 , Dice_WT: 0.13912201 , Dice_ET: 0.0 , time 69.03s
+Val 3/4 30/63 , Dice_TC: 0.010743289 , Dice_WT: 0.14170401 , Dice_ET: 0.0 , time 69.01s
+Val 3/4 31/63 , Dice_TC: 0.010443498 , Dice_WT: 0.13848633 , Dice_ET: 0.0 , time 68.94s
+Val 3/4 32/63 , Dice_TC: 0.010610323 , Dice_WT: 0.14024249 , Dice_ET: 0.0 , time 68.97s
+Val 3/4 33/63 , Dice_TC: 0.010365951 , Dice_WT: 0.1408776 , Dice_ET: 0.0 , time 68.94s
+Val 3/4 34/63 , Dice_TC: 0.010223697 , Dice_WT: 0.13915138 , Dice_ET: 0.0 , time 68.99s
+Val 3/4 35/63 , Dice_TC: 0.010079288 , Dice_WT: 0.13835938 , Dice_ET: 0.0 , time 68.90s
+Val 3/4 36/63 , Dice_TC: 0.00992168 , Dice_WT: 0.13850191 , Dice_ET: 0.0 , time 68.90s
+Val 3/4 37/63 , Dice_TC: 0.009802429 , Dice_WT: 0.13859001 , Dice_ET: 0.0 , time 68.87s
+Val 3/4 38/63 , Dice_TC: 0.0096924715 , Dice_WT: 0.13807884 , Dice_ET: 0.0 , time 68.95s
+Val 3/4 39/63 , Dice_TC: 0.009687286 , Dice_WT: 0.13703236 , Dice_ET: 0.0 , time 68.92s
+Val 3/4 40/63 , Dice_TC: 0.009820658 , Dice_WT: 0.13614324 , Dice_ET: 0.0 , time 68.91s
+Val 3/4 41/63 , Dice_TC: 0.009754078 , Dice_WT: 0.13666113 , Dice_ET: 0.0 , time 68.91s
+Val 3/4 42/63 , Dice_TC: 0.009661261 , Dice_WT: 0.13715567 , Dice_ET: 0.0 , time 68.89s
+Val 3/4 43/63 , Dice_TC: 0.009564131 , Dice_WT: 0.1358686 , Dice_ET: 0.0 , time 68.91s
+Val 3/4 44/63 , Dice_TC: 0.009554304 , Dice_WT: 0.13680759 , Dice_ET: 0.0 , time 68.78s
+Val 3/4 45/63 , Dice_TC: 0.009489727 , Dice_WT: 0.13576072 , Dice_ET: 0.0 , time 68.74s
+Val 3/4 46/63 , Dice_TC: 0.009375153 , Dice_WT: 0.13459198 , Dice_ET: 0.0 , time 68.69s
+Val 3/4 47/63 , Dice_TC: 0.009924764 , Dice_WT: 0.1369143 , Dice_ET: 0.0 , time 68.77s
+Val 3/4 48/63 , Dice_TC: 0.009815694 , Dice_WT: 0.13783139 , Dice_ET: 0.0 , time 68.69s
+Val 3/4 49/63 , Dice_TC: 0.009715403 , Dice_WT: 0.13682339 , Dice_ET: 0.0 , time 68.70s
+Val 3/4 50/63 , Dice_TC: 0.009636648 , Dice_WT: 0.13810188 , Dice_ET: 0.0 , time 68.77s
+Val 3/4 51/63 , Dice_TC: 0.0097914245 , Dice_WT: 0.13842513 , Dice_ET: 0.0 , time 68.76s
+Val 3/4 52/63 , Dice_TC: 0.009795918 , Dice_WT: 0.1375807 , Dice_ET: 0.0 , time 68.73s
+Val 3/4 53/63 , Dice_TC: 0.009748857 , Dice_WT: 0.1377847 , Dice_ET: 0.0 , time 68.66s
+Val 3/4 54/63 , Dice_TC: 0.00978355 , Dice_WT: 0.13890024 , Dice_ET: 0.0 , time 68.67s
+Val 3/4 55/63 , Dice_TC: 0.009621464 , Dice_WT: 0.13745496 , Dice_ET: 0.0 , time 68.68s
+Val 3/4 56/63 , Dice_TC: 0.009796845 , Dice_WT: 0.13762845 , Dice_ET: 0.0 , time 68.67s
+Val 3/4 57/63 , Dice_TC: 0.009731646 , Dice_WT: 0.13797836 , Dice_ET: 0.0 , time 68.67s
+Val 3/4 58/63 , Dice_TC: 0.009757986 , Dice_WT: 0.13822371 , Dice_ET: 0.0 , time 68.66s
+Val 3/4 59/63 , Dice_TC: 0.009649404 , Dice_WT: 0.13866498 , Dice_ET: 0.0 , time 68.61s
+Val 3/4 60/63 , Dice_TC: 0.009643316 , Dice_WT: 0.13904993 , Dice_ET: 0.0 , time 68.64s
+Val 3/4 61/63 , Dice_TC: 0.009707139 , Dice_WT: 0.1396889 , Dice_ET: 0.0 , time 68.62s
+Val 3/4 62/63 , Dice_TC: 0.009685201 , Dice_WT: 0.13988745 , Dice_ET: 0.0 , time 68.72s
+Final validation stats 3/3 , Dice_TC: 0.009685201 , Dice_WT: 0.13988745 , Dice_ET: 0.0 , time 4354.51s
+new best (0.000000 --> 0.049858). 
+Saving checkpoint ./runs/4_gpu_4_epochs/model.pt
+Saving checkpoint ./runs/4_gpu_4_epochs/model_final.pt
+Copying to model.pt new best model!!!!
+Training Finished !, Best Accuracy:  0.049857553
+Traceback (most recent call last):
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.9.6/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/guest183/run_swinUNETR_kilimanjaro/SWIN_ENV/lib/python3.9/site-packages/tensorboardX/event_file_writer.py", line 202, in run
+    data = self._queue.get(True, queue_wait_duration)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.9.6/lib/python3.9/multiprocessing/queues.py", line 117, in get
+    res = self._recv_bytes()
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.9.6/lib/python3.9/multiprocessing/connection.py", line 221, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.9.6/lib/python3.9/multiprocessing/connection.py", line 419, in _recv_bytes
+    buf = self._recv(4)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.9.6/lib/python3.9/multiprocessing/connection.py", line 388, in _recv
+    raise EOFError
+EOFError
