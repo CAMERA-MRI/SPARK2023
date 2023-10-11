@@ -1,7 +1,7 @@
-![alt text](https://github.com/CAMERA-MRI/SWiM/blob/main/SWiM_banner.png)
+![alt text](https://github.com/CAMERA-MRI/SPARK2023/blob/main/SPARK_banner.jpeg)
 <!--# Scan With Me (SWiM)
 
-## SWiM Github
+## SPARK Github
 
 This Github repository serves as the access point to the Scan With Me (SWiM) training course resources. 
 
