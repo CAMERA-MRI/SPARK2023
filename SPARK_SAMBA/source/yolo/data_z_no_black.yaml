@@ -1,0 +1,8 @@
+path: /scratch/guest190/BraTS_data_africa/YOLO_z_no_black
+train: 'train/images'
+val: 'valid/images'
+
+# class names
+names: 
+  0: 'cancer'
+

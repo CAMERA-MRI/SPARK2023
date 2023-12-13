@@ -1,0 +1,79 @@
+# Saving t1_z  #approved
+print("t1_z no_image")
+
+import os
+import torch
+import numpy as np
+
+from tqdm import tqdm
+
+from segment_anything import sam_model_registry
+from segment_anything.utils.transforms import ResizeLongestSide
+import nibabel as nib
+from skimage import transform
+
+# from SurfaceDice import compute_dice_coefficient
+
+# set seeds
+torch.manual_seed(2023)
+np.random.seed(2023)
+
+
+# create_folders
+base = "/scratch/guest190/"
+os.makedirs(base + "BraTS_data_africa", exist_ok=True)
+
+
+# prepare SAM model
+model_type = 'vit_h'
+checkpoint = 'sam_vit_h_4b8939.pth'
+sam_model = sam_model_registry[model_type](checkpoint=checkpoint).to('cuda')
+
+
+os.makedirs(base + "BraTS_data_africa/t1/z", exist_ok=True)
+os.makedirs(base + "BraTS_data_africa/t1/z/images", exist_ok=True)
+os.makedirs(base + "BraTS_data_africa/t1/z/embeddings", exist_ok=True)
+
+src_folder = "/scratch/guest190/africa/ASNR-MICCAI-BraTS2023-SSA-Challenge-TrainingData/"
+image_size = 256
+
+
+files = os.listdir(src_folder)
+for i in tqdm(files):
+  img =  nib.load(src_folder + i + "/"+ i +"-t1n.nii.gz")
+  img = img.get_fdata()
+  num_slices = img.shape[2]
+
+
+  for s in range(num_slices):
+    path = base + "BraTS_data_africa/t1/z/embeddings/" +i+ "_"+ str(s)+".npy"
+    if os.path.exists(path): continue
+
+    image = img[:,:,s]
+
+    # np.save(base + "BraTS_data_africa/t1/z/images/"+i+"_"+ str(s), image)
+    # plt.imshow(image, cmap ="gray")
+    # plt.show()
+
+    lower_bound, upper_bound = np.percentile(image, 0.5), np.percentile(image, 99.5)
+    image_data_pre = np.clip(image, lower_bound, upper_bound)
+    d = (np.max(image_data_pre)-np.min(image_data_pre))
+    d = 1 if d==0 else d
+    image_data_pre = ((image_data_pre - np.min(image_data_pre))/d) *255.0
+    image_data_pre[image==0] = 0
+    image = transform.resize(image_data_pre[:,:], (image_size, image_size), order=3, preserve_range=True, mode='constant', anti_aliasing=True)
+    image = np.stack((image, image, image), axis = -1 )
+    image = np.uint8(image)
+
+    sam_transform = ResizeLongestSide(sam_model.image_encoder.img_size)
+    image = sam_transform.apply_image(image)
+    # resized_shapes.append(resize_img.shape[:2])
+    image = torch.as_tensor(image.transpose(2, 0, 1)).to('cuda')
+    # model input: (1, 3, 1024, 1024)
+    image = sam_model.preprocess(image[None,:,:,:]) # (1, 3, 1024, 1024)
+    image = image[0,...] # (3, 1024, 1024)
+    # plt.imshow(image[1,:,:].cpu(), cmap ="gray")
+    # plt.show()
+    with torch.no_grad(): 
+      embedding = sam_model.image_encoder(image[None,...])[0].cpu().numpy()
+    np.save(base + "BraTS_data_africa/t1/z/embeddings/" +i+ "_"+ str(s), embedding)
