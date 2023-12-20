@@ -3,7 +3,7 @@
 # Glioma Segmentation in Resource-Limited Settings
 ## SAMBA Github
 
-This Github repository serves as the access point to the SPARK Academy SAMBA model from the Wakanda team in the 2023 SPARK Academy. It provides the Code referenced in _Mohannad Barakat, Noha Magdy et al., Towards SAMBA: Segment Anything Model for Brain Tumor Segmentation in Sub-Sharan African Populations (2023)_
+This Github repository serves as the access point to the SPARK Academy SAMBA model from the Wakanda team in the 2023 SPARK Academy. It provides the Code referenced in _[Mohannad Barakat, Noha Magdy et al., Towards SAMBA: Segment Anything Model for Brain Tumor Segmentation in Sub-Sharan African Populations (2023)](http://arxiv.org/abs/2312.11770)_
 
 For more information about SPARK, the academy's objectives visit [SPARK's event website](https://event.fourwaves.com/spark). All training events are accessible to registered participants through SPARK's event website.
 
