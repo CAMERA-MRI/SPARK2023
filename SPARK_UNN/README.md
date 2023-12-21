@@ -9,6 +9,10 @@ BraTS2023 final submission only uses the Optimised Unet framework. 4 main models
     3. training with only BraTS-GLIOMA data and then fine-tuning the model with SSA data
 
 The newly developed code was created in order to further explore the effect of additional data augmentations on the generalisability of this framework. The aim was also to simplify the process and reduce computational capacity such that the model can be run from low resource settings possibly using open source computing infrastructure. These are found in the folder scripts, as well as within several notebooks. Due to time, resource and capacity contraints, this was not completed in the 2 month period of the challenge. 
+
+***Please reference this article if you use this code and its scripts in your research***: 
+Alyssa R. Amod, Alexandra Smith, Pearly Joubert, Confidence Raymond, Dong Zhang, Udunna C. Anazodo, Dodzi Motchon, Tinashe E. M. Mutsvangwa and Sébastien Quetin. Bridging the Gap: Generalising State-of-the-Art U-Net Models to Sub-Saharan African Populations. arXiv.2312.11770 (2023). https://doi.org/10.48550/arXiv.2312.11770
+
 ## Scripts in this repository
 Team UNN code: All folders except for OptiNet contain original code authored by SPARK team UNN. Below are some of the main scripts.
 ### Notebooks
