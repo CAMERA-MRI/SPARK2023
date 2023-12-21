@@ -11,5 +11,5 @@ For more information about SPARK, the academy's objectives visit [SPARK's event 
 
 SAMBA is innovative approach that combines the Segment Anything Model (SAM) with a voting network for multi-modal glioma segmentation. Our fine-tuning strategy, SAM with bounding box-guided prompts (SAMBA), tailors the model to the complexities of African datasets. Leveraging an ensemble strategy with multiple modalities and views, we achieve a robust consensus segmentation that addresses the intra-tumoral heterogeneity. 
 
-**Please reference this article if you use this code in your research*: 
+***Please reference this article if you use this code in your research***: 
 Mohannad Barakat, Noha Magdy, Jjuuko George William, Ethel Phiri, Raymond Confidence, Dong Zhang and Udunna C Anazodo. Towards SAMBA: Segment Anything Model for Brain Tumor Segmentation in Sub-Sharan African Populations. arXiv.2312.11775 (2023). https://doi.org/10.48550/arXiv.2312.11775**
