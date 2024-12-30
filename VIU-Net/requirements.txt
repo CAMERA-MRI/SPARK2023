@@ -1,0 +1,11 @@
+scikit-learn
+numpy
+nibabel
+glob2
+tensorflow
+matplotlib
+tifffile
+opencv-python
+pillow
+split-folders
+h5py
