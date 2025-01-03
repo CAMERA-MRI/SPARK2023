@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or research work, please consider citing it as below."
+authors:
+- family-names: "Chepchirchir"
+  given-names: "Rancy"
+- family-names: "Sunday"
+  given-names: "Jill"
+- family-names: "Confidence"
+  given-names: "Raymond"
+- family-names: "Zhang"
+  given-names: "Dong"
+- family-names: "Chaudhry"
+  given-names: "Talha"
+- family-names: "Annazodo"
+  given-names: "Udunna"
+- family-names: "Muchungi"
+  given-names: "Kendi"
+- family-names: "Zou"
+  given-names: "Yujing"
+title: "Generative Style Transfer for MR Image Segmentation: A Case of Glioma Segmentation in Sub-Saharan Africa"
+version: 1.0.0
+date-released: 2025-01-02
+doi: "XXX"
+url: "https://github.com/BTSKifaru/SPARK_BTS_KIFARU.git"
