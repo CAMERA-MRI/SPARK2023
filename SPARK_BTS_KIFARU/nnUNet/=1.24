@@ -1,0 +1,21 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.24.2+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/matplotlib-3.7.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scikit_learn-1.3.0+computecanada-cp39-cp39-linux_x86_64.whl
+Requirement already satisfied: pyparsing>=2.3.1 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (3.0.9+computecanada)
+Requirement already satisfied: fonttools>=4.22.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (4.39.4+computecanada)
+Requirement already satisfied: contourpy>=1.0.1 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (1.0.7+computecanada)
+Requirement already satisfied: pillow>=6.2.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (9.5.0+computecanada)
+Requirement already satisfied: importlib-resources>=3.2.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (5.12.0+computecanada)
+Requirement already satisfied: cycler>=0.10 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (0.11.0+computecanada)
+Requirement already satisfied: python-dateutil>=2.7 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (2.8.2+computecanada)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (1.4.4+computecanada)
+Requirement already satisfied: packaging>=20.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from matplotlib) (23.1+computecanada)
+Requirement already satisfied: joblib>=1.1.1 in /home/guest189/hackathon/lib/python3.9/site-packages (from scikit-learn) (1.2.0+computecanada)
+Requirement already satisfied: scipy>=1.5.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from scikit-learn) (1.10.1+computecanada)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from scikit-learn) (3.1.0+computecanada)
+Requirement already satisfied: zipp>=3.1.0 in /home/guest189/hackathon/lib/python3.9/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.15.0+computecanada)
+Requirement already satisfied: six>=1.5 in /home/guest189/hackathon/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0+computecanada)
+Installing collected packages: numpy, scikit-learn, matplotlib
+Successfully installed matplotlib-3.7.0+computecanada numpy-1.24.2+computecanada scikit-learn-1.3.0+computecanada
