@@ -19,6 +19,6 @@ If you use this research and/or software, please cite it using the following:
   year         = {2025},
   month        = {January},
   version      = {1.0.0},
-  doi          = {[XXX](https://doi.org/10.1007/978-3-031-79103-1_12)}, 
+  doi          = {(https://doi.org/10.1007/978-3-031-79103-1_12)}, 
   url          = {https://github.com/BTSKifaru/SPARK_BTS_KIFARU.git},
 }
